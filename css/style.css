@@ -73,3 +73,8 @@ h1{
     color: #000;
     padding: 20px 30px 10px;
 }
+
+.accord-container input:checked ~ .accord-body{
+ transition:
+ height 0.5s ease-in-out;
+}
